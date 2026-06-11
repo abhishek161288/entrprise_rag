@@ -1,0 +1,1 @@
+JIRA-101 Refund API returns 500 error. Root cause: DB connection pool exhaustion.

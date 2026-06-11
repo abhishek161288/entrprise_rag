@@ -1,0 +1,3 @@
+Employee Onboarding Guide
+
+Complete HR documentation, setup email, VPN, MFA, Jira, GitHub and Confluence access.

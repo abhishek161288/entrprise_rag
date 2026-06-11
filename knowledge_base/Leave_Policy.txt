@@ -1,0 +1,12 @@
+Annual Leave Policy
+
+Employees are entitled to annual leave based on years of service.
+
+0 to 2 years of service: 18 days annual leave.
+More than 2 years and up to 5 years: 24 days annual leave.
+More than 5 years: 30 days annual leave.
+
+Unused leave may be carried forward up to a maximum of 10 days.
+Employees must submit leave requests through Workday at least 3 business days in advance.
+Emergency leave requests can be approved by the reporting manager.
+Public holidays are not deducted from annual leave balances.

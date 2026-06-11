@@ -1,0 +1,3 @@
+System Architecture
+
+User Service, Payment Service, Notification Service, Kafka, PostgreSQL, Redis, Kubernetes.
