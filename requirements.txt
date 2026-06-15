@@ -10,3 +10,5 @@ tqdm
 numpy<2.0.0
 google-generativeai
 rank-bm25
+langchain-google-genai
+langgraph

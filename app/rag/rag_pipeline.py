@@ -45,6 +45,7 @@ def ask(question):
         )
     )
 
+    
     return {
         "answer": answer,
         "sources": sources

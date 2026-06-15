@@ -1,8 +1,9 @@
 import os
 import httpx
+from dotenv import load_dotenv
 from openai import OpenAI
 
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+load_dotenv()
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
     http_client=httpx.Client(verify=False)
@@ -31,7 +32,7 @@ Question:
 """
 
     response = client.responses.create(
-        model="gpt-5.4",
+        model=os.getenv("OPEN_AI_MODEL"),
         input=prompt
     )
 
