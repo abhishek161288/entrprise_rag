@@ -33,6 +33,7 @@ def get_agent(tools):
                 },
                 "cab_booking": False,
                 "seat_booking": False,
+                "ask_rag": False,
             }
         ),
     ],
