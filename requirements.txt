@@ -12,3 +12,4 @@ google-generativeai
 rank-bm25
 langchain-google-genai
 langgraph
+scikit-learn

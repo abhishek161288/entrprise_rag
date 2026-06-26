@@ -120,7 +120,16 @@ graph.add_conditional_edges(START, should_summarise)
 graph.add_edge("summarise_node", "llm_node")
 
 # Conditional routing: LLM → appropriate tool node or END
-graph.add_conditional_edges("llm_node", route_tools)
+graph.add_conditional_edges(
+    "llm_node",
+    route_tools,
+    {
+        "leave_booking_node": "leave_booking_node",
+        "cab_booking_node": "cab_booking_node",
+        "seat_booking_node": "seat_booking_node",
+        "rag_node": "rag_node",
+        END: END,
+    },)
 
 # Each tool node loops back to the LLM for a final answer
 graph.add_edge("leave_booking_node", "llm_node")
